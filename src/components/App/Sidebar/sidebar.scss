@@ -1,0 +1,27 @@
+$sidebar-color: #9197b3;
+$sidebar-background: #ffffff;
+$sidebar-accent: #5932ea;
+$accent-color: #ffffff;
+$title-color: #000000;
+
+.sidebar {
+  padding: 37px 28px 76px;
+  width: 306px;
+  height: 100vh;
+
+  background-color: $sidebar-background;
+
+  &__thumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  &__title {
+    color: $title-color;
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+  }
+}

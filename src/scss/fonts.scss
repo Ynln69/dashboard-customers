@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url(../shared/fonts/Poppins-Medium.woff) format(woff),
+    url(../shared/fonts/Poppins-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url(../shared/fonts/Poppins-SemiBold.woff) format(woff),
+    url(../shared/fonts/Poppins-SemiBold.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
