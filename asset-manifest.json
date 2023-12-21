@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/dashboard-customers/static/css/main.8a685450.css",
-    "main.js": "/dashboard-customers/static/js/main.95e568c3.js",
+    "main.css": "/dashboard-customers/static/css/main.0138ef91.css",
+    "main.js": "/dashboard-customers/static/js/main.0057b2fa.js",
+    "static/media/Poppins-Medium.woff": "/dashboard-customers/static/media/Poppins-Medium.9de653bb3161fcb43443.woff",
+    "static/media/Poppins-SemiBold.woff": "/dashboard-customers/static/media/Poppins-SemiBold.4b2ae28bc415edfe9fd6.woff",
+    "static/media/Poppins-Medium.woff2": "/dashboard-customers/static/media/Poppins-Medium.1bb2cc2b927e6590391c.woff2",
+    "static/media/Poppins-SemiBold.woff2": "/dashboard-customers/static/media/Poppins-SemiBold.e4258fa809f81555ab07.woff2",
+    "static/media/sprite.svg": "/dashboard-customers/static/media/sprite.eea11c03b2235b3858d13ce0de791f27.svg",
     "index.html": "/dashboard-customers/index.html",
-    "main.8a685450.css.map": "/dashboard-customers/static/css/main.8a685450.css.map",
-    "main.95e568c3.js.map": "/dashboard-customers/static/js/main.95e568c3.js.map"
+    "main.0138ef91.css.map": "/dashboard-customers/static/css/main.0138ef91.css.map",
+    "main.0057b2fa.js.map": "/dashboard-customers/static/js/main.0057b2fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a685450.css",
-    "static/js/main.95e568c3.js"
+    "static/css/main.0138ef91.css",
+    "static/js/main.0057b2fa.js"
   ]
 }
