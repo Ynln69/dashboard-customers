@@ -1,0 +1,111 @@
+.customers {
+  filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.5));
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px 30px 44px 40px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  &__title {
+    margin-bottom: 7px;
+
+    color: #000;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.22px;
+  }
+  &__subtitle {
+    color: #16c098;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.14px;
+  }
+  &__label {
+    display: flex;
+    gap: 8px;
+    border-radius: 10px;
+    background: #f9fbff;
+    padding: 7px 8px;
+    align-items: center;
+  }
+  &__input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    &::placeholder {
+      color: #b5b7c0;
+      font-family: "Poppins";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.12px;
+    }
+  }
+  &__th {
+    padding-right: 50px;
+
+    text-align: start;
+    color: #b5b7c0;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+  }
+  &__th:nth-child(1) {
+    padding-right: 57px;
+  }
+
+  &__th:nth-child(2) {
+    padding-right: 61px;
+  }
+
+  &__th:nth-child(3) {
+    padding-right: 52px;
+  }
+  &__th:nth-child(4) {
+    padding-right: 61px;
+  }
+
+  &__th:nth-child(5) {
+    padding-right: 96px;
+  }
+  &__td {
+    padding: 24px 0;
+    border-bottom: 1px solid #eeeeee;
+
+    color: #292d32;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+  }
+  &__status {
+    &--active {
+      padding: 4px 12px;
+      border-radius: 4px;
+      border: 1px solid #00b087;
+
+      color: #008767;
+      background: rgba(22, 192, 152, 0.38);
+      text-align: center;
+    }
+    &--inactive {
+      padding: 4px 12px;
+      border-radius: 4px;
+      border: 1px solid #df0404;
+
+      color: #df0404;
+      background: #ffc5c5;
+      text-align: center;
+    }
+  }
+}
