@@ -1,10 +1,15 @@
-import Sidebar from "./Sidebar/Sidebar";
+import Dashboard from "../Dashboard/Dashboard";
+import Sidebar from "../Sidebar/Sidebar";
 
 const App = () => {
+  const AppContainer = {
+    display: "flex",
+  };
   return (
-    <main>
+    <div style={AppContainer}>
       <Sidebar />
-    </main>
+      <Dashboard />
+    </div>
   );
 };
 
