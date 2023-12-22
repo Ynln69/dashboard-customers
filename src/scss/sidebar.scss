@@ -49,14 +49,10 @@ $font-family: "Poppins";
     align-items: center;
     stroke: #9197b3;
     padding: 11px;
-    &:hover {
+    &--active {
       border-radius: 8px;
-
       stroke: $accent-color;
       background: $sidebar-accent;
-    }
-    &:hover .nav-list__subtitle {
-      color: $accent-color;
     }
   }
 
@@ -69,6 +65,9 @@ $font-family: "Poppins";
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.14px;
+    &--active {
+      color: $accent-color;
+    }
   }
 
   &:nth-child(3) {

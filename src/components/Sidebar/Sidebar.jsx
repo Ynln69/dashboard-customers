@@ -32,11 +32,13 @@ const Sidebar = () => {
             <use xlinkHref={`${sprite}#chevron-right`} />
           </svg>
         </li>
-        <li className="nav-list__item">
+        <li className="nav-list__item nav-list__item--active">
           <svg width={24} height={24}>
             <use xlinkHref={`${sprite}#user-square`} />
           </svg>
-          <h2 className="nav-list__subtitle">Customers</h2>
+          <h2 className="nav-list__subtitle nav-list__subtitle--active">
+            Customers
+          </h2>
           <svg width={16} height={16}>
             <use xlinkHref={`${sprite}#chevron-right`} />
           </svg>

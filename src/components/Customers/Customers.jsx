@@ -1,5 +1,6 @@
 import sprite from "../../images/sprite.svg";
 import "../../scss/customers.scss";
+import Pagination from "../Pagination/Pagination";
 import CustomerTable from "../Table/Table";
 
 const Customers = () => {
@@ -22,6 +23,7 @@ const Customers = () => {
         </label>
       </div>
       <CustomerTable />
+      <Pagination />
     </div>
   );
 };
