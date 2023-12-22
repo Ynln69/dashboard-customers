@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dashboard-customers/static/css/main.77f3eff8.css",
+    "main.css": "/dashboard-customers/static/css/main.9ba2badc.css",
     "main.js": "/dashboard-customers/static/js/main.befda51b.js",
     "static/media/Poppins-Medium.woff": "/dashboard-customers/static/media/Poppins-Medium.9de653bb3161fcb43443.woff",
     "static/media/Poppins-SemiBold.woff": "/dashboard-customers/static/media/Poppins-SemiBold.4b2ae28bc415edfe9fd6.woff",
@@ -8,11 +8,11 @@
     "static/media/Poppins-SemiBold.woff2": "/dashboard-customers/static/media/Poppins-SemiBold.e4258fa809f81555ab07.woff2",
     "static/media/sprite.svg": "/dashboard-customers/static/media/sprite.eea11c03b2235b3858d13ce0de791f27.svg",
     "index.html": "/dashboard-customers/index.html",
-    "main.77f3eff8.css.map": "/dashboard-customers/static/css/main.77f3eff8.css.map",
+    "main.9ba2badc.css.map": "/dashboard-customers/static/css/main.9ba2badc.css.map",
     "main.befda51b.js.map": "/dashboard-customers/static/js/main.befda51b.js.map"
   },
   "entrypoints": [
-    "static/css/main.77f3eff8.css",
+    "static/css/main.9ba2badc.css",
     "static/js/main.befda51b.js"
   ]
 }
