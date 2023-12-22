@@ -4,7 +4,7 @@ import Customers from "../Customers/Customers";
 const Dashboard = () => {
   return (
     <section className="dashboard">
-      <h2 className="dashboard__title">Hello Evano,</h2>
+      <h2 className="dashboard__title">Hello Evano 👋🏻 ,</h2>
       <Customers />
     </section>
   );
